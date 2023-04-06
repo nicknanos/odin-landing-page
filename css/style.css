@@ -33,7 +33,7 @@ nav ul {
 
 nav ul li:nth-of-type(1) {
     margin-right: auto;
-    color: white;
+    color: #F9FAF8;
     font-size: 1.5em;
     font-weight: 900;
 }
@@ -45,4 +45,56 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #3882F6;
+}
+
+.intro {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.intro .container {
+    display: flex;
+    flex-flow: column;
+}
+
+.intro h1 {
+    margin: 0px;
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro img {
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.intro button {
+    flex-basis: 30px;
+    width: 100px;
+    padding: 5px;
+    font-size: 19px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 20px;
+}
+
+.intro button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.intro button:active {
+    box-shadow: none;
 }
