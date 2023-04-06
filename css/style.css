@@ -137,3 +137,23 @@ nav ul li a:hover {
     font-size: 15px;
     color: gray;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 120px;
+    background-color: #E5E7EB;
+}
+
+.quote cite {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote h6 {
+    font-size: 17px;
+}
