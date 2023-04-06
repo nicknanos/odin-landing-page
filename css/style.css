@@ -53,7 +53,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding: 20px;
+    padding: 90px 70px;
 }
 
 .intro .container {
@@ -97,4 +97,43 @@ nav ul li a:hover {
 
 .intro button:active {
     box-shadow: none;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 50px 30px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info .items-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.info .item {
+    flex-basis: 50px;
+}
+
+.info .item img {
+    border: 5px solid #1F2937;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.info .item p {
+    font-size: 15px;
+    color: gray;
 }
