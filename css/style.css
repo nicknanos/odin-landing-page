@@ -138,13 +138,15 @@ nav ul li a:hover {
     color: gray;
 }
 
-.quote {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 80px 120px;
+.quote-container {
     background-color: #E5E7EB;
+}
+
+.quote {
+    max-width: 1000px;
+    margin:  auto;
+    padding: 80px 120px;
+    text-align: center;
 }
 
 .quote cite {
@@ -152,8 +154,11 @@ nav ul li a:hover {
     font-weight: lighter;
     font-style: italic;
     color: #1F2937;
+    
 }
 
 .quote h6 {
     font-size: 17px;
+    text-align: end;
+    padding-right: 80px;
 }
