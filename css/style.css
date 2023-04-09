@@ -162,3 +162,33 @@ nav ul li a:hover {
     text-align: end;
     padding-right: 80px;
 }
+
+.signup {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 120px 200px;
+    padding: 40px 80px;
+    border-radius: 20px;
+}
+
+.signup button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 20px;
+    border: 2px solid #F9FAF8;
+    border-radius: 12px;
+    padding: 8px 25px;
+}
+
+.signup button:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+}
+
+.signup button:active {
+    box-shadow: none;
+}
