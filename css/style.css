@@ -2,7 +2,7 @@
 
 html {
     box-sizing: border-box;
-
+    scroll-behavior: smooth;
   }
   *,
   *::before,
@@ -18,27 +18,30 @@ body {
 
 nav {
     background-color: #1F2937;
+    position: sticky;
+    top: 0;
 }
 
 nav ul {
     height: 50px;
     margin: 0px;
-    padding-right: 30px;
+    padding: 5px 90px;
     display: flex;
     list-style: none;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
 }
 
 nav ul li:nth-of-type(1) {
     margin-right: auto;
     color: #F9FAF8;
-    font-size: 1.5em;
+    font-size: 24px;
     font-weight: 900;
 }
 
 nav ul li a {
+    font-size: 18px;
     text-decoration: none;
     color: white;
 }
@@ -50,7 +53,7 @@ nav ul li a:hover {
 .intro {
     background-color: #1F2937;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -60,6 +63,7 @@ nav ul li a:hover {
 .intro .container {
     display: flex;
     flex-flow: column;
+    flex-basis: 700px;
 }
 
 .intro h1 {
@@ -137,7 +141,9 @@ nav ul li a:hover {
 .info .item img {
     border: 5px solid #1F2937;
     border-radius: 10px;
-    padding: 50px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .info .item p {
