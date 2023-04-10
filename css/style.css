@@ -17,7 +17,7 @@ body {
 }
 
 nav {
-    background-color: #1F2937;
+    background-color: #0D1B2A;
     position: sticky;
     top: 0;
 }
@@ -35,7 +35,7 @@ nav ul {
 
 nav ul li:nth-of-type(1) {
     margin-right: auto;
-    color: #F9FAF8;
+    color: #F2F2F2;
     font-size: 24px;
     font-weight: 900;
 }
@@ -43,15 +43,15 @@ nav ul li:nth-of-type(1) {
 nav ul li a {
     font-size: 18px;
     text-decoration: none;
-    color: white;
+    color: #F2F2F2;
 }
 
 nav ul li a:hover {
-    color: #3882F6;
+    color: #41B6E6;
 }
 
 .intro {
-    background-color: #1F2937;
+    background-color: #0D1B2A;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -70,7 +70,7 @@ nav ul li a:hover {
     margin: 0px;
     font-size: 48px;
     font-weight:bolder;
-    color: #F9FAF8;
+    color: #F2F2F2;
 }
 
 .intro p {
@@ -79,28 +79,30 @@ nav ul li a:hover {
 }
 
 .intro img {
-    max-width: 500px;
-    max-height: 300px;
+    max-width: 600px;
+    max-height: 400px;
     border-radius: 5px;
 }
 
-.intro button {
+.intro a {
     flex-basis: 30px;
-    width: 100px;
+    width: 250px;
     padding: 5px;
     font-size: 19px;
-    color: #F9FAF8;
-    background-color: #3882F6;
+    color: #F2F2F2;
+    background-color: #5E2751;
     border: none;
     border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
 }
 
-.intro button:hover {
+.intro a:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     cursor: pointer;
 }
 
-.intro button:active {
+.intro a:active {
     box-shadow: none;
 }
 
@@ -123,14 +125,14 @@ nav ul li a:hover {
 .info h2 {
     font-size: 36px;
     font-weight: 900;
-    color: #1F2937;
+    color: #36454F;
 }
 
 .info .items-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: center;
+    align-items:flex-start;
     gap: 25px;
 }
 
@@ -139,11 +141,12 @@ nav ul li a:hover {
 }
 
 .info .item img {
-    border: 5px solid #1F2937;
+    border: 5px solid #36454F;
     border-radius: 10px;
     width: 200px;
     height: 200px;
     object-fit: cover;
+    
 }
 
 .info .item p {
@@ -152,7 +155,7 @@ nav ul li a:hover {
 }
 
 .quote-container {
-    background-color: #E5E7EB;
+    background-color: #36454F;
 }
 
 .quote {
@@ -166,11 +169,12 @@ nav ul li a:hover {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    color: #1F2937;
+    color: #F2F2F2;
     
 }
 
 .quote h6 {
+    color: #F2F2F2;
     font-size: 17px;
     text-align: end;
     padding-right: 80px;
@@ -185,31 +189,39 @@ nav ul li a:hover {
 
 .signup {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    background-color: #3882F6;
-    color: #F9FAF8;
+    background-color: #5E2751;
+    color: #F2F2F2;
     margin: 120px 200px;
     padding: 40px 80px;
     border-radius: 20px;
+    gap: 30px;
 }
 
-.signup button {
-    background-color: #3882F6;
-    color: #F9FAF8;
+.signup .container {
+    flex: 1;
+}
+
+.signup a {
+    
+    width: 150px;
+    background-color: #5E2751;
+    color: #F2F2F2;
     font-size: 20px;
-    border: 2px solid #F9FAF8;
+    border: 2px solid #F2F2F2;
     border-radius: 12px;
     padding: 8px 25px;
+    text-decoration: none;
 }
 
-.signup button:hover {
+.signup a:hover {
     cursor: pointer;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
 }
 
-.signup button:active {
+.signup a:active {
     box-shadow: none;
 }
 
@@ -226,8 +238,9 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #F9FAF8;
+    color: #F2F2F2;
     padding: 20px;
+    text-align: center;
 }
 
 .footer .socials ul {
@@ -246,5 +259,9 @@ nav ul li a:hover {
   }
   
 .footer .socials ul li a:hover {
-    color: #3882F6;
+    color: #5E2751;
+  }
+
+  .footer a {
+    color: #F2F2F2;
   }
