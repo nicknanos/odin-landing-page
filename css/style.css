@@ -50,6 +50,7 @@ nav ul li a:hover {
 .intro {
     background-color: #1F2937;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -74,8 +75,8 @@ nav ul li a:hover {
 }
 
 .intro img {
-    width: 500px;
-    height: 300px;
+    max-width: 500px;
+    max-height: 300px;
     border-radius: 5px;
 }
 
@@ -98,6 +99,12 @@ nav ul li a:hover {
 .intro button:active {
     box-shadow: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .intro img {
+        display: none;
+    }
+  }
 
 .info {
     display: flex;
@@ -163,6 +170,13 @@ nav ul li a:hover {
     padding-right: 80px;
 }
 
+
+@media only screen and (max-width: 600px) {
+    .quote {
+        padding: 20px;
+    }
+  }
+
 .signup {
     display: flex;
     flex-flow: row wrap;
@@ -192,6 +206,13 @@ nav ul li a:hover {
 .signup button:active {
     box-shadow: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .signup {
+        margin: 20px;
+        padding: 20px;
+    }
+  }
 
 .footer {
     background-color: #1F2937;
