@@ -211,15 +211,14 @@ nav ul li a:hover {
     margin: 120px 200px;
     padding: 40px 80px;
     border-radius: 20px;
-    gap: 30px;
+    gap: 50px;
 }
 
 .signup .container {
     flex: 1;
 }
 
-.signup a {
-    
+.signup a {  
     width: 150px;
     background-color: #5E2751;
     color: #F2F2F2;
